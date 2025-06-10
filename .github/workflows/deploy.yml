@@ -41,5 +41,5 @@ jobs:
     needs: build
 
     steps:
-      - nmae: Deploy
+      - name: Deploy
         run: echo "Deploying..."
